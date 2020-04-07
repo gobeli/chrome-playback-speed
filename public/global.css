@@ -1,0 +1,19 @@
+:root {
+	--color-bg: #F7FAFC;
+	--color-text: #2D3748;
+	--color-alt: #CBD5E0;
+}
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: var(--color-bg);
+	color: var(--color-text);
+	margin: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
